@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Tab Manager",
+  "version": "1.0",
+  "description": "Manage browser tabs smartly with search, duplicate detection, focus mode and analytics",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
